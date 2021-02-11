@@ -1,0 +1,6 @@
+R:\PPO\Lab2\Prog3\Prog3\Debug\Prog3.vcxprojAssemblyReference.cache
+R:\PPO\Lab2\Prog3\Prog3\Debug\Prog3.MyForm.resources
+R:\PPO\Lab2\Prog3\Prog3\Debug\Prog3.vcxproj.GenerateResource.cache
+D:\GitHub\Application-Software\Lab2\Prog3\Prog3\Debug\Prog3.vcxprojAssemblyReference.cache
+D:\GitHub\Application-Software\Lab2\Prog3\Prog3\Debug\Prog3.MyForm.resources
+D:\GitHub\Application-Software\Lab2\Prog3\Prog3\Debug\Prog3.vcxproj.GenerateResource.cache

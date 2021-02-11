@@ -1,0 +1,4 @@
+﻿  Lab3_1.cpp
+D:\GitHub\Application-Software\Lab3\Lab3_1\Lab3_1\Lab3_1.cpp(34,12): warning C4101: 'j': unreferenced local variable
+D:\GitHub\Application-Software\Lab3\Lab3_1\Lab3_1\Lab3_1.cpp(44,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab3_1.vcxproj -> D:\GitHub\Application-Software\Lab3\Lab3_1\Debug\Lab3_1.exe

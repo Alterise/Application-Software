@@ -1,0 +1,3 @@
+D:\GitHub\Application-Software\Lab4i\Lab4i\Debug\Lab4i.vcxprojAssemblyReference.cache
+D:\GitHub\Application-Software\Lab4i\Lab4i\Debug\Lab4i.MyForm.resources
+D:\GitHub\Application-Software\Lab4i\Lab4i\Debug\Lab4i.vcxproj.GenerateResource.cache

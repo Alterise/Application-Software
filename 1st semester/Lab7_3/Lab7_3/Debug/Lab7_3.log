@@ -1,0 +1,6 @@
+﻿  Lab7_3.cpp
+D:\GitHub\Application-Software\Lab7_3\Lab7_3\Lab7_3.cpp(32,14): warning C4018: '<': signed/unsigned mismatch
+D:\GitHub\Application-Software\Lab7_3\Lab7_3\Lab7_3.cpp(44,19): warning C4018: '<': signed/unsigned mismatch
+D:\GitHub\Application-Software\Lab7_3\Lab7_3\Lab7_3.cpp(70,14): warning C4018: '<': signed/unsigned mismatch
+D:\GitHub\Application-Software\Lab7_3\Lab7_3\Lab7_3.cpp(83,19): warning C4018: '<': signed/unsigned mismatch
+  Lab7_3.vcxproj -> D:\GitHub\Application-Software\Lab7_3\Debug\Lab7_3.exe

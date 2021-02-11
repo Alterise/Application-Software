@@ -1,0 +1,11 @@
+﻿  Lab7_1.cpp
+D:\GitHub\Application-Software\Lab7_1\Lab7_1\Lab7_1.cpp(122,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\GitHub\Application-Software\Lab7_1\Lab7_1\Lab7_1.cpp(106,23): warning C4018: '<': signed/unsigned mismatch
+D:\GitHub\Application-Software\Lab7_1\Lab7_1\Lab7_1.cpp(177): message : see reference to function template instantiation 'T avg_counter<int>(std::vector<int,std::allocator<int>>)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\GitHub\Application-Software\Lab7_1\Lab7_1\Lab7_1.cpp(99,16): warning C4101: 'avg': unreferenced local variable
+  LINK : D:\GitHub\Application-Software\Lab7_1\Debug\Lab7_1.exe not found or not built by the last incremental link; performing full link
+  Lab7_1.vcxproj -> D:\GitHub\Application-Software\Lab7_1\Debug\Lab7_1.exe

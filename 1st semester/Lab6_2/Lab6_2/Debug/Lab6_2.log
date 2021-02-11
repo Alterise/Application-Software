@@ -1,0 +1,4 @@
+﻿  Lab6_2.cpp
+D:\GitHub\Application-Software\Lab6_2\Lab6_2\Lab6_2.cpp(120,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\GitHub\Application-Software\Lab6_2\Lab6_2\Lab6_2.cpp(141,20): warning C4018: '<': signed/unsigned mismatch
+  Lab6_2.vcxproj -> D:\GitHub\Application-Software\Lab6_2\Debug\Lab6_2.exe

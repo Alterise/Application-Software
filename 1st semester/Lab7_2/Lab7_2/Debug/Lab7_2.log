@@ -1,0 +1,9 @@
+﻿  Lab7_2.cpp
+D:\GitHub\Application-Software\Lab7_2\Lab7_2\Lab7_2.cpp(16,22): warning C4018: '<': signed/unsigned mismatch
+D:\GitHub\Application-Software\Lab7_2\Lab7_2\Lab7_2.cpp(38): message : see reference to function template instantiation 'T avg_counter<int>(std::vector<int,std::allocator<int>>)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\GitHub\Application-Software\Lab7_2\Lab7_2\Lab7_2.cpp(9,16): warning C4101: 'avg': unreferenced local variable
+  Lab7_2.vcxproj -> D:\GitHub\Application-Software\Lab7_2\Debug\Lab7_2.exe

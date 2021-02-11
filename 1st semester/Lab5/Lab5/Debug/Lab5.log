@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\GitHub\Application-Software\Lab5\Lab5\Source.cpp(232,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\GitHub\Application-Software\Lab5\Lab5\Source.cpp(236,7): warning C4101: 'arithmetic_operation': unreferenced local variable
+  Lab5.vcxproj -> D:\GitHub\Application-Software\Lab5\Debug\Lab5.exe
