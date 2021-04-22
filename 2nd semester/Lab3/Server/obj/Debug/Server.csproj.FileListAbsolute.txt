@@ -1,0 +1,9 @@
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\bin\Debug\Server.exe.config
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\bin\Debug\Server.exe
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\bin\Debug\Server.pdb
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\obj\Debug\Server.Form1.resources
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\obj\Debug\Server.Properties.Resources.resources
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\obj\Debug\Server.exe
+D:\GitHub\Application-Software\2nd semester\Lab3\Server\obj\Debug\Server.pdb

@@ -33,7 +33,7 @@ namespace Lab1
 			}
 		}
 
-		private double calculate_difference(int i, int j, System.Windows.Forms.DataGridView Matrix)
+		private double calculate_difference(int i, int j, int[,] Matrix)
 		{
 			try
 			{
