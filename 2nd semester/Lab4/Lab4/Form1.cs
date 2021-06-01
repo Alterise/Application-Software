@@ -43,39 +43,39 @@ namespace Lab4
 				SqlDataAdapter dataAdapter = null;
 				if (nameOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE Name='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and Name='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else if (shortNameOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE ShortName='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and ShortName='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else if (atomicNumberOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE AtomicNumber='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and AtomicNumber='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else if (periodOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE Period='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and Period='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else if (groupOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE GroupNumber='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and GroupNumber='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else if (atomicMassOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE AtomicMass='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and AtomicMass='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else if (typeOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE Type='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and Type='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else if (infoOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE Info='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and Info='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else if (electronCountOption.Checked)
 				{
-					dataAdapter = new SqlDataAdapter("select * from PeriodicTable WHERE ElectronCount='" + findTextBox.Text + "'", sqlConnection);
+					dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber and ElectronCount='" + findTextBox.Text + "'", sqlConnection);
 				}
 				else
 				{
@@ -100,7 +100,7 @@ namespace Lab4
 			{
 				sqlConnection.Close();
 				sqlConnection.Open();
-				SqlDataAdapter dataAdapter = new SqlDataAdapter("select * from PeriodicTable", sqlConnection);
+				SqlDataAdapter dataAdapter = new SqlDataAdapter("select PeriodicTable.*, Types.Type from PeriodicTable, Types Where PeriodicTable.AtomicNumber = Types.AtomicNumber", sqlConnection);
 				DataTable dataTable = new DataTable();
 				dataAdapter.Fill(dataTable);
 				dataGridView1.DataSource = dataTable;
